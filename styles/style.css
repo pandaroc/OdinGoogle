@@ -11,6 +11,5 @@ body {
 .nav-option {
     flex: 0 1 2%;
     border: 1px solid black;
-    margin: 2px 2px;
-    justify-items: center;   
+    margin: 2px 2px; 
 }
