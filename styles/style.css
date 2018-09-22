@@ -1,15 +1,27 @@
 body {
-
+    font-family: arial,sans-serif;
 }
 
 .nav-container{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 100%;
+    z-index:999;
+
     display:flex;
+    flex-direction: row;
     justify-content: flex-end;
-    height: 50px;
-    background-color: rgba(255 255 255 0.5);
+    align-items: center;
+    height: auto;
 }
 .nav-option {
-    flex: 0 1 2%;
-    border: 1px solid black;
-    margin: 2px 2px; 
+    flex: 0 1 auto;
+    margin: 2px 2px;
+}
+
+.text{
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    line-height: 24px;  
 }
