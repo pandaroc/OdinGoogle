@@ -2,6 +2,11 @@ body {
     font-family: arial,sans-serif;
 }
 
+.main {
+    position: relative; 
+    top: 50px;
+}
+
 .nav-container{
     position: absolute;
     top: 5px;
